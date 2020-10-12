@@ -1,0 +1,3 @@
+[submodule "federated"]
+	path = federated
+	url = https://github.com/google-research/federated

@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 
-from federated.utils import checkpoint_manager
+import os
+import sys
 
-print(dir(checkpoint_manager))
+cwd = os.getcwd()
+path = os.path.join(cwd, 'federated')
+sys.path.append(path)
 
+from federated.utils import training_loop
+
+print(dir(training_loop))
